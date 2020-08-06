@@ -23,7 +23,7 @@ html {
 
 .logo {
   /* border: 2px solid green; */
-  font-size: 65px;
+  font-size: 50px;
   color: rgb(255, 132, 255);
   text-align: center;
   margin-bottom: 20px;
@@ -43,13 +43,14 @@ html {
 .button {
   padding: 35px;
   margin: 10px;
-  font-size: 40px;
+  font-size: 25px;
   border-radius: 10px;
-  text-shadow: 2px 2px 4px black;
-  box-shadow: 2px 2px 2px black;
+  color: rgb(89, 180, 255);
+  text-shadow: 2px 2px 4px rgb(0, 38, 255);
+  box-shadow: 2px 2px 5px 2px blue;
   font-family: 'Share Tech Mono', monospace;
   /* background-color: rgba(110, 253, 253, 0.719); */
-  border: 5px solid white;
+  /* border: 5px solid white; */
   background-color: #63a4ff70;
 background-image: linear-gradient(315deg, #63a4ff59 0%, #83eaf157 74%);
 }
@@ -88,4 +89,33 @@ background-image: linear-gradient(315deg, #63a4ff59 0%, #83eaf157 74%);
   font-family: 'Share Tech Mono', monospace;
   /* border: 2px solid red; */
   flex-direction: column;
+}
+
+.container {
+  text-align: center;
+  /* border: 2px solid white; */
+  /* margin: 8px; */
+  padding: 30px;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+.header {
+  background-image: linear-gradient(180deg, #006aff 0%, #83eaf157 74%);
+  position: fixed;
+}
+
+.footer {
+  background-image: linear-gradient(180deg, #e100ff 0%, #8f00a15d 74%);
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+p {
+  color: white;
+  font-size: 25px;
+  max-width: 500px;
 }
