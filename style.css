@@ -1,27 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 
-body,html {
+body,
+html {
+
+  /* background-image: url("cyber.jpg");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(87, 87, 87);
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(87, 87, 87);
   height: 100%;
   min-height: 100%;
   min-width: 100%;
-  font-family: 'Bangers', cursive;
-  /* border: 2px solid red; */
-  flex-direction: column;
+  font-family: 'Share Tech Mono', monospace;
+  border: 2px solid red;
+  flex-direction: column; */
+  margin: 0px;
 
 }
 
 .logo {
   /* border: 2px solid green; */
   font-size: 65px;
-  color: red;
+  color: rgb(255, 132, 255);
   text-align: center;
   margin-bottom: 20px;
   padding: 15px;
-  text-shadow: 2px 2px 2px black;
+  text-shadow: 2px 2px 4px red;
+  background-color: #f545daa2;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px 2px rgb(255, 255, 255);
+
 }
 
 /* .buttons-menu {
@@ -34,9 +45,13 @@ body,html {
   margin: 10px;
   font-size: 40px;
   border-radius: 10px;
-  text-shadow: 2px 2px 2px grey;
+  text-shadow: 2px 2px 4px black;
   box-shadow: 2px 2px 2px black;
-  font-family: 'Bangers', cursive;
+  font-family: 'Share Tech Mono', monospace;
+  /* background-color: rgba(110, 253, 253, 0.719); */
+  border: 5px solid white;
+  background-color: #63a4ff70;
+background-image: linear-gradient(315deg, #63a4ff59 0%, #83eaf157 74%);
 }
 
 .wrapper {
@@ -44,3 +59,33 @@ body,html {
   width: 1000px;
 }
 
+.Homepage_container {
+
+  background-image: url("cyber.jpg");
+  background-color: #b31e1e;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(87, 87, 87);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* height: 100%; */
+  /* min-height: 100%; */
+  min-width: 100%;
+  font-family: 'Share Tech Mono', monospace;
+  /* border: 2px solid red; */
+  flex-direction: column;
+}
+
+.dronepagecontainer {
+  height: 100vh;
+  background-color: #e77642c4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100%;
+  font-family: 'Share Tech Mono', monospace;
+  /* border: 2px solid red; */
+  flex-direction: column;
+}
